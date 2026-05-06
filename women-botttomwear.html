@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vrunda Narkhede">
+    <meta name="description" content="This page contains the E-commerce website.">
+    <title>All Products - Meesho Clone </title>
+    <link rel="icon" href="home page/profile icon.jpg" type="image/x-icons">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="home page/logo1.png" width="250px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="categories.html">Category</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                
+                </ul>
+            </nav>
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i class="fa-solid fa-bars" onclick="menutoggle()"></i>
+        </div>
+   
+</div>
+
+
+
+    <div class="small-container">
+        
+        <div class="row row-2">
+            <h2>All products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Sort by price</option>
+                <option>Sort by popularity</option>
+                <option>Sort by rating</option>
+                <option>Sort by sale</option>
+            </select>
+        </div>
+
+
+           <div class="row">
+            <div class="col-4">
+                <img src="home page/product-17.webp" >
+                <h4> Fashion Blue Jeans</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    
+                </div>
+                <p>₹650.00</p>
+                <a href="cart.html" class="btn"
+onclick="addToCart(15,' Fashion Blue Jeans',650,'home page/product-17.webp')">
+Add To Cart
+</a>
+            </div>
+            
+            <div class="col-4">
+                <img src="home page/product-15.webp" >
+                <h4>Plazzo Pant</h4>
+                <div class="rating">
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star-half-stroke"></i>
+                    
+                </div>
+                <p>₹250.00</p>
+
+                <a href="cart.html" class="btn"
+onclick="addToCart(15,'Plazzo Pant',250,'home page/product-15.webp')">
+Add To Cart
+</a>
+            </div>
+                    
+           <div class="col-4">
+                <img src="home page/product-19.webp" >
+                <h4> Fashion Skt-Blue Jeans</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    
+                </div>
+                <p>₹650.00</p>
+
+                 <a href="cart.html" class="btn"
+onclick="addToCart(19,' Fashion Skt-Blue Jeans',650,'home page/product-19')">
+Add To Cart
+</a>
+            </div>
+            
+            
+        </div>
+ 
+
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594</span>
+        </div>
+    </div>
+
+
+
+<!-----------footer------------>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android ans Ios mobile Phone.</p>
+                <div class="app-logo">
+                    <img src="home page/play.jpg" >
+                    <img src="home page/app.jpg" >
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="home page/logo2.png" >
+                <p>Download App for Android ans Ios mobile Phone.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>blog Post</li>
+                    <li>Return Policy</li>
+                    <li>join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>FaceBook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>You Tube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2026 </p>
+    </div>
+</div>
+
+<!-----------js fpr toggle menu----->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+    {
+        MenuItems.style.maxHeight = "200px"
+    }
+    else{
+        MenuItems.style.maxHeight = "0px"
+    }
+    }
+</script>
+
+<!------------js for product gallary------>
+
+<script>
+    var ProductImg = document.getElementById("ProductImg");
+    var SmallImg = document.getElementsByClassName("small-img");
+
+    SmallImg[0].onclick = function () {
+        ProductImg.src = SmallImg[0].src;
+    }
+
+    SmallImg[1].onclick = function () {
+        ProductImg.src = SmallImg[1].src;
+    }
+
+    SmallImg[2].onclick = function () {
+        ProductImg.src = SmallImg[2].src;
+    }
+
+    SmallImg[3].onclick = function () {
+        ProductImg.src = SmallImg[3].src;
+    }
+
+</script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
